@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connor Farrar | Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-gray-900">Connor Farrar</a>
+            <div class="space-x-4 hidden md:block">
+                <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a>
+                <a href="#projects" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="min-h-screen">
+        <!-- Hero Section -->
+        <section id="home" class="bg-white py-20 md:py-32 flex items-center justify-center text-center">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
+                    Hello, I'm Connor Farrar.
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto mb-8">
+                    A passionate [Your Profession] with a focus on [Your Specialization]. Welcome to my portfolio.
+                </p>
+                <a href="#projects" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+                    View My Work
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">About Me</h2>
+                <div class="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
+                    <div class="md:w-1/3">
+                        <!-- You can replace this with your own photo -->
+                        <img src="https://placehold.co/400x400/D1D5DB/FFFFFF?text=Your+Photo" alt="A photo of Connor Farrar" class="rounded-full w-64 h-64 mx-auto object-cover shadow-xl">
+                    </div>
+                    <div class="md:w-2/3 text-lg space-y-4">
+                        <p>
+                            I'm a dedicated and creative professional with [Number] years of experience in [Your Field]. My journey has been driven by a fascination with [Your Passion], and I thrive on turning complex problems into elegant solutions.
+                        </p>
+                        <p>
+                            In my work, I specialize in [Key Skill 1], [Key Skill 2], and [Key Skill 3]. I am always eager to learn and take on new challenges that push my skills to the next level. Outside of work, you can find me [Your Hobbies or Interests].
+                        </p>
+                        <p>
+                            This portfolio is a showcase of my projects and a testament to my commitment to quality and innovation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">My Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                        <img src="https://placehold.co/600x400/E5E7EB/4B5563?text=Project+1" alt="Project 1 thumbnail" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Project Title One</h3>
+                            <p class="text-gray-600 mb-4">A brief description of your project. Mention the technologies used and your role in the project.</p>
+                            <a href="#" class="text-blue-600 hover:underline font-semibold">View Details &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                        <img src="https://placehold.co/600x400/E5E7EB/4B5563?text=Project+2" alt="Project 2 thumbnail" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Project Title Two</h3>
+                            <p class="text-gray-600 mb-4">A brief description of your project. Mention the technologies used and your role in the project.</p>
+                            <a href="#" class="text-blue-600 hover:underline font-semibold">View Details &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                        <img src="https://placehold.co/600x400/E5E7EB/4B5563?text=Project+3" alt="Project 3 thumbnail" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Project Title Three</h3>
+                            <p class="text-gray-600 mb-4">A brief description of your project. Mention the technologies used and your role in the project.</p>
+                            <a href="#" class="text-blue-600 hover:underline font-semibold">View Details &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me Section -->
+        <section id="contact" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Get In Touch</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+                    I am currently open to new opportunities. Feel free to reach out to me via email or connect with me on social media.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                    <a href="mailto:youremail@example.com" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300">
+                        Email Me
+                    </a>
+                    <a href="https://www.linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer" class="bg-gray-200 text-gray-800 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-300 transition-colors duration-300">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        <p>&copy; 2024 Connor Farrar. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
